@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_home_24">
+    </item>
+
+    <item
+        android:id="@+id/menu_character"
+        android:title="Character"
+        app:showAsAction="always"
+
+        android:icon="@drawable/ic_baseline_person_pin_24">
+    </item>
+
+    <item
+        android:id="@+id/menu_houses"
+        android:title="Houses"
+        app:showAsAction="always"
+
+        android:icon="@drawable/ic_baseline_account_balance_24">
+    </item>
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="Search"
+        app:showAsAction="always"
+
+        android:icon="@drawable/ic_baseline_search_24">
+    </item>
+
+    <item
+        android:id="@+id/menu_spells"
+        android:title="Spells"
+        app:showAsAction="always"
+
+        android:icon="@drawable/ic_baseline_fireplace_24">
+    </item>
+
+</menu>
