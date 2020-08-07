@@ -1,32 +1,28 @@
 {
-  "version": 2,
-  "artifactType": {
-    "type": "MERGED_MANIFESTS",
-    "kind": "Directory"
-  },
+  "version": 1,
   "applicationId": "com.jerry.poterology",
-  "variantName": "debug",
+  "variantType": "BASE_APK",
   "elements": [
     {
-      "type": "SINGLE",
-      "filters": [],
-      "properties": [
-        {
-          "key": "packageId",
-          "value": "com.jerry.poterology"
-        },
-        {
-          "key": "split",
-          "value": ""
-        },
-        {
-          "key": "minSdkVersion",
-          "value": "26"
-        }
-      ],
-      "versionCode": 1,
-      "versionName": "1.0",
-      "outputFile": "AndroidManifest.xml"
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.jerry.poterology",
+        "split": "",
+        "minSdkVersion": "26"
+      }
     }
   ]
 }

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/poterology.iml" filepath="$PROJECT_DIR$/.idea/modules/poterology.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/poterology.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/poterology.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="poterology/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/poterology.iml" filepath="$PROJECT_DIR$/.idea/modules/poterology.iml" group="poterology" />
     </modules>
   </component>
 </project>
