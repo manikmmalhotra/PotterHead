@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+            "outputFile": "C:\\Users\\USER\\Desktop\\Potterthing\\PotterHead\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-2\\files-2.1\\4ed1a717293bdf3bc8362c1d1eff5b71\\material-1.1.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\ad5b2253154d954f5f94b5a17e4edacd\\material-1.1.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
