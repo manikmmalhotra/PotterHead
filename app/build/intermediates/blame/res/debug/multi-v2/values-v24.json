@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\USER\\Desktop\\Potterthing\\PotterHead\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-2\\files-2.1\\5609f37db135b5f9be5f2836142cadea\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\f0373a12a63b5c08cb5437fd7fabc0fd\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-2\\files-2.1\\186fe0f89f29a84450efb13f4919eb8c\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\7ebb8d9b330db4b2e9100da5a589e862\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
