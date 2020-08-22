@@ -10,22 +10,6 @@
     </item>
 
     <item
-        android:id="@+id/menu_character"
-        android:title="Character"
-        app:showAsAction="always"
-
-        android:icon="@drawable/ic_baseline_person_pin_24">
-    </item>
-
-    <item
-        android:id="@+id/menu_houses"
-        android:title="Houses"
-        app:showAsAction="always"
-
-        android:icon="@drawable/ic_baseline_account_balance_24">
-    </item>
-
-    <item
         android:id="@+id/menu_search"
         android:title="Search"
         app:showAsAction="always"
@@ -33,12 +17,30 @@
         android:icon="@drawable/ic_baseline_search_24">
     </item>
 
+
     <item
-        android:id="@+id/menu_spells"
-        android:title="Spells"
+        android:id="@+id/menu_Create"
+        android:title="Create"
         app:showAsAction="always"
 
-        android:icon="@drawable/ic_baseline_fireplace_24">
+        android:icon="@drawable/ic_baseline_add_circle_24">
+    </item>
+
+    <item
+        android:id="@+id/menu_Detail"
+        android:title="Detail"
+        app:showAsAction="always"
+
+        android:icon="@drawable/ic_baseline_details_24">
+    </item>
+
+
+    <item
+        android:id="@+id/menu_Profile"
+        android:title="profile"
+        app:showAsAction="always"
+
+        android:icon="@drawable/ic_baseline_account_circle_24">
     </item>
 
 </menu>

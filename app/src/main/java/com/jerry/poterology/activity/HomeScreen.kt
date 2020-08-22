@@ -47,17 +47,17 @@ private fun setBottomNavigationView() {
                 fragment = SearchFragment()
                 fragmentId = "search"
             }
-            R.id.menu_spells -> {
-                fragment = SpellFragment()
-                fragmentId = "Spell"
+            R.id.menu_Profile -> {
+                fragment = ProfleFragment()
+                fragmentId = "profile"
             }
-            R.id.menu_houses -> {
-                fragment = HouseFragment()
-                fragmentId = "house"
+            R.id.menu_Detail -> {
+                fragment = DetailFragment()
+                fragmentId = "Detail"
             }
-            R.id.menu_character -> {
-                fragment = CharacterFragment()
-                fragmentId = "character"
+            R.id.menu_Create -> {
+                fragment = CreateFragment()
+                fragmentId = "Create"
             }
             else -> {
                 fragment = HomeFragment()
@@ -90,9 +90,9 @@ override fun onBackPressed() {
                 fm?.getBackStackEntryAt(fm?.getBackStackEntryCount()!! - 1)?.getName()
             )) {
                 "Search" -> bottomNavigationView?.setSelectedItemId(R.id.menu_search)
-                "house" -> bottomNavigationView?.setSelectedItemId(R.id.menu_houses)
-                "Spell" -> bottomNavigationView?.setSelectedItemId(R.id.menu_spells)
-                "character" -> bottomNavigationView?.setSelectedItemId(R.id.menu_character)
+                "profile" -> bottomNavigationView?.setSelectedItemId(R.id.menu_Profile)
+                "Create" -> bottomNavigationView?.setSelectedItemId(R.id.menu_Create)
+                "Detail" -> bottomNavigationView?.setSelectedItemId(R.id.menu_Detail)
                 else -> bottomNavigationView?.setSelectedItemId(R.id.menu_home)
             }
         }
