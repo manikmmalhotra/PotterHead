@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import com.jerry.poterology.MainActivity
 import com.jerry.poterology.R
 
@@ -12,11 +13,11 @@ class Splash_screen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
 
-        Handler().postDelayed( {
-            val i = Intent(this, MainActivity::class.java)
+        Handler(Looper.getMainLooper()).postDelayed( {
+            val i = Intent(this, HomeScreen::class.java)
             startActivity(i)
             finish()
-        },3000)
+        },2000)
     }
 
 }
