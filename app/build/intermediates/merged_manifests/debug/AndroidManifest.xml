@@ -19,13 +19,16 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.jerry.poterology.activity.HomeScreen" />
-        <activity android:name="com.jerry.poterology.MainActivity" >
+        <activity android:name="com.jerry.poterology.activity.Splash_screen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.jerry.poterology.activity.HomeScreen" >
+        </activity>
+        <activity android:name="com.jerry.poterology.MainActivity" >
         </activity>
     </application>
 

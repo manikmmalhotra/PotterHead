@@ -1334,6 +1334,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1348,8 +1349,13 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable houses_bg
 drawable ic_baseline_account_balance_24
+drawable ic_baseline_account_circle_24
+drawable ic_baseline_add_circle_24
+drawable ic_baseline_details_24
 drawable ic_baseline_fireplace_24
+drawable ic_baseline_group_work_24
 drawable ic_baseline_home_24
 drawable ic_baseline_person_pin_24
 drawable ic_baseline_search_24
@@ -1391,6 +1397,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font lumos
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1545,11 +1552,11 @@ id listMode
 id list_item
 id masked
 id media_actions
-id menu_character
+id menu_Create
+id menu_Detail
+id menu_Profile
 id menu_home
-id menu_houses
 id menu_search
-id menu_spells
 id message
 id middle
 id mini
@@ -1669,6 +1676,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id text_1
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1758,6 +1766,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_home_screen
 layout activity_main
+layout activity_splash_screen
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1774,11 +1783,12 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout fragment_character
+layout fragment_create
+layout fragment_detail
+layout fragment_group
 layout fragment_home
-layout fragment_house
+layout fragment_profile
 layout fragment_search
-layout fragment_spell
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
