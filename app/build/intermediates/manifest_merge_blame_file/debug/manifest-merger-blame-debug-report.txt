@@ -11,7 +11,7 @@
 9-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:5:5-26:19
+11-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:5:5-22:19
 12        android:allowBackup="true"
 12-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,28 +29,29 @@
 20        android:testOnly="true"
 21        android:theme="@style/AppTheme" >
 21-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:11:9-40
-22        <activity android:name="com.jerry.poterology.activity.Splash_screen" >
-22-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:12:9-18:20
-22-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:12:19-57
-23            <intent-filter>
-23-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:13:13-17:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:14:17-69
-24-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:14:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:16:17-77
-26-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:16:27-74
-27            </intent-filter>
-28        </activity>
-29        <activity android:name="com.jerry.poterology.activity.HomeScreen" >
-29-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:19:9-22:20
-29-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:19:19-54
-30        </activity>
-31        <activity android:name="com.jerry.poterology.MainActivity" >
-31-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:23:9-25:20
-31-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:23:19-47
-32        </activity>
-33    </application>
-34
-35</manifest>
+22        <activity android:name="com.jerry.poterology.MainActivity2" />
+22-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:12:9-60
+22-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:12:19-48
+23        <activity android:name="com.jerry.poterology.activity.Splash_screen" >
+23-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:13:9-19:20
+23-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:13:19-57
+24            <intent-filter>
+24-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:14:13-18:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:15:17-69
+25-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:15:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:17:17-77
+27-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:17:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.jerry.poterology.activity.HomeScreen" />
+30-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:20:9-57
+30-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:20:19-54
+31        <activity android:name="com.jerry.poterology.MainActivity" />
+31-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:21:9-50
+31-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:21:19-47
+32    </application>
+33
+34</manifest>

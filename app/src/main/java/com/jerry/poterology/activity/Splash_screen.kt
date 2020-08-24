@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.jerry.poterology.MainActivity
+import com.jerry.poterology.MainActivity2
 import com.jerry.poterology.R
 
 class Splash_screen : AppCompatActivity() {

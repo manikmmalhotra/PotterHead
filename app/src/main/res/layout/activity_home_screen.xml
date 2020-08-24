@@ -1,28 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.HomeScreen">
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context=".activity.HomeScreen"
+    >
 
     <FrameLayout
+        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/homescreenfragment"
-        android:layout_above="@+id/homescreenbottom">
+        android:layout_height="0dp"
+        android:layout_weight="8.8"/>
 
-    </FrameLayout>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+    <com.simform.custombottomnavigation.SSCustomBottomNavigation
+        android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:id="@+id/homescreenbottom"
-        android:background="#7B1FA2"
-        app:menu="@menu/bottom_menu"
-        app:labelVisibilityMode="unlabeled">
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        app:ss_backgroundBottomColor="#E1AF3EDF"
+        app:ss_circleColor="#ff6f00"
+        app:ss_countBackgroundColor="#ff6f00"
+        app:ss_countTextColor="#ffffff"
+        app:ss_defaultIconColor="#FFFFFF"
+        app:ss_iconTextColor="#FFFFFF"
+        app:ss_iconTextSize="14sp"
 
+        app:ss_rippleColor="#2f424242"
+        app:ss_selectedIconColor="#AFB42B"
+        app:ss_selectedIconTextColor="#AFB42B"
+        app:ss_shadowColor="#1f212121"
+        app:ss_waveHeight="7" />
 
-</RelativeLayout>
+</LinearLayout>
