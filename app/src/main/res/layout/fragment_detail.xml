@@ -1,19 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragments.DetailFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Detail"
-        android:gravity="center"
-        android:textColor="#000"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        />
 
-</FrameLayout>
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Create" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Create" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Create" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Create" />
+
+        </LinearLayout>
+ </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

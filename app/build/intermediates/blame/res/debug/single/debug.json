@@ -28,12 +28,12 @@
         "source": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_create.xml.flat",
         "source": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\src\\main\\res\\layout\\fragment_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_search.xml.flat",
@@ -44,16 +44,16 @@
         "source": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_group.xml.flat",
+        "source": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\src\\main\\res\\layout\\fragment_group.xml"
+    },
+    {
         "merged": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back.png.flat",
         "source": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\src\\main\\res\\drawable\\back.png"
     },
     {
         "merged": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_group.xml.flat",
-        "source": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\src\\main\\res\\layout\\fragment_group.xml"
     },
     {
         "merged": "C:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_group_work_24.xml.flat",
