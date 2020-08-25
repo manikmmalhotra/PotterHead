@@ -2,6 +2,7 @@ package com.jerry.poterology.activity
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -53,8 +54,12 @@ class HomeScreen : AppCompatActivity() {
                 "Profile"
             )
         )
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.fragment_container, HomeFragment()).commit()
+
+        bottomNavigation?.setOnClickMenuListener{ item->
+
+            Toast.makeText(getApplicationContext(),"Clicked item"+item.text,Toast.LENGTH_SHORT).show()
+        }
+        supportFragmentManager.beginTransaction().replace(R.id.fragment_container, HomeFragment()).commit()
 
         bottomNavigation!!.setOnShowListener { item->
             var selectfragment: Fragment? = null
@@ -64,6 +69,7 @@ class HomeScreen : AppCompatActivity() {
                 3 -> selectfragment = CreateFragment()
                 4 -> selectfragment = DetailFragment()
                 5 -> selectfragment = ProfleFragment()
+                else -> selectfragment = HomeFragment()
             }
             supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_container, selectfragment!!).commit()
@@ -71,4 +77,3 @@ class HomeScreen : AppCompatActivity() {
         }
     }
 }
-

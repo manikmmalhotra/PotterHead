@@ -28,7 +28,6 @@
             </intent-filter>
         </activity>
         <activity android:name="com.jerry.poterology.activity.HomeScreen" />
-        <activity android:name="com.jerry.poterology.MainActivity" />
     </application>
 
 </manifest>
