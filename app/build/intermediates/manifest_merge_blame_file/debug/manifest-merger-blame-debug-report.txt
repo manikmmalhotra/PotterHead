@@ -11,7 +11,7 @@
 9-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:5:5-22:19
+11-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:5:5-21:19
 12        android:allowBackup="true"
 12-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -49,9 +49,6 @@
 30        <activity android:name="com.jerry.poterology.activity.HomeScreen" />
 30-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:20:9-57
 30-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:20:19-54
-31        <activity android:name="com.jerry.poterology.MainActivity" />
-31-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:21:9-50
-31-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:21:19-47
-32    </application>
-33
-34</manifest>
+31    </application>
+32
+33</manifest>
