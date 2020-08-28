@@ -15,14 +15,14 @@
     </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/homescreenbottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:id="@+id/homescreenbottom"
+        android:animateLayoutChanges="false"
         android:background="#7B1FA2"
-        app:menu="@menu/bottom_menu"
-        app:labelVisibilityMode="unlabeled">
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_menu"></com.google.android.material.bottomnavigation.BottomNavigationView>
 
 
 </RelativeLayout>
