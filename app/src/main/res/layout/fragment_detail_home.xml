@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/detailbg"
+    tools:context=".Fragments.detailFragment.DetailHome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/charactertext"
+                android:layout_marginTop="50dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recylerchar"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/stroke"
+                android:fontFamily="@font/fontdiner_swanky"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="SHOW MORE"
+                android:textColor="#B19735"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/spellstext" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerspell"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/stroke"
+                android:fontFamily="@font/fontdiner_swanky"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="SHOW MORE"
+                android:textColor="#B19735"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/housetext" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerhouse"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/stroke"
+                android:fontFamily="@font/fontdiner_swanky"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="SHOW MORE"
+                android:textColor="#B19735"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
