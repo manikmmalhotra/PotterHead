@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="10"
     android:orientation="vertical"
     tools:context=".activity.HomeScreen"
     >
@@ -12,28 +11,34 @@
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="8.8"/>
-
+        android:layout_height="match_parent"
+        android:layout_marginBottom="63dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <com.simform.custombottomnavigation.SSCustomBottomNavigation
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1.2"
-        app:ss_backgroundBottomColor="#E1AF3EDF"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:ss_circleColor="#ff6f00"
+        android:background="@drawable/chgeckit"
+        app:ss_backgroundBottomColor="#00FFFFFF"
         app:ss_countBackgroundColor="#ff6f00"
         app:ss_countTextColor="#ffffff"
         app:ss_defaultIconColor="#FFFFFF"
         app:ss_iconTextColor="#FFFFFF"
         app:ss_iconTextSize="14sp"
-
         app:ss_rippleColor="#2f424242"
-        app:ss_selectedIconColor="#AFB42B"
-        app:ss_selectedIconTextColor="#AFB42B"
+        app:ss_selectedIconColor="#b48811"
+        app:ss_selectedIconTextColor="#b48811"
         app:ss_shadowColor="#1f212121"
         app:ss_waveHeight="7" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
