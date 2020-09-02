@@ -18,7 +18,7 @@ class AdapterDetailSpell: RecyclerView.Adapter<AdapterDetailSpell.ViewHolder>()
     }
 
     override fun getItemCount(): Int {
-        return 10
+        return 100
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {

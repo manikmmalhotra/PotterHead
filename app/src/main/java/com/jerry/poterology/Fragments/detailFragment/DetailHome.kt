@@ -17,6 +17,7 @@ class DetailHome : Fragment() {
     lateinit var adapterSpell:AdapterDetailSpell
     lateinit var adapterhouseChar:AdapterDetailCharacter
     lateinit var buttonChar: Button
+    lateinit var buttonSpell: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -35,25 +36,23 @@ class DetailHome : Fragment() {
             transaction!!.replace(R.id.frame, CharacterFragment()).addToBackStack("DetailHome")
             transaction.commit()
         }
+        buttonSpell = view!!.findViewById(R.id.buttonspell)
+
+        buttonSpell.setOnClickListener {
+            val transaction = fragmentManager?.beginTransaction()
+            transaction!!.replace(R.id.frame, Spells()).addToBackStack("DetailHome")
+            transaction.commit()
+        }
         return view
-
-
-    }
-
+}
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         init()
-
-
-
     }
     private fun init(){
-
         val recyclerspell: RecyclerView = view!!.findViewById(R.id.recyclerspell)
         val recyclerchar: RecyclerView = view!!.findViewById(R.id.recylerchar)
         val recyclerhouse: RecyclerView = view!!.findViewById(R.id.recyclerhouse)
-
         val linearLayoutManager = LinearLayoutManager(context,LinearLayoutManager.VERTICAL,false)
         val linearLayoutManager1 = LinearLayoutManager(context,LinearLayoutManager.VERTICAL,false)
         val linearLayoutManager2 = LinearLayoutManager(context,LinearLayoutManager.VERTICAL,false)
@@ -66,10 +65,5 @@ class DetailHome : Fragment() {
         recyclerchar.adapter = adapterhouseChar
         recyclerhouse.adapter = adapterhouseChar
     }
-   /* var fragment:FragmentManager
-    constructor(supporFragmentManager: FragmentManager){
-        this.fragment = supporFragmentManager*/
-
-
 }
 
