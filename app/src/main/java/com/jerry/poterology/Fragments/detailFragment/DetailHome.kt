@@ -5,15 +5,18 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.jerry.poterology.Adapter.Adapter.Detail.AdapterDetailCharacter
 import com.jerry.poterology.Adapter.Adapter.Detail.AdapterDetailSpell
 import com.jerry.poterology.R
+import com.jerry.poterology.Spells
 
 class DetailHome : Fragment() {
     lateinit var adapterSpell:AdapterDetailSpell
     lateinit var adapterhouseChar:AdapterDetailCharacter
+    lateinit var butoon1: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -46,10 +49,14 @@ class DetailHome : Fragment() {
         recyclerchar.adapter = adapterhouseChar
         recyclerhouse.adapter = adapterhouseChar
 
+
+        butoon1 = view.findViewById(R.id.button1)
+
+        butoon1.setOnClickListener{
+            val transaction = childFragmentManager?.beginTransaction()
+            transaction!!.replace(R.id.frame, Spells())
+            transaction.commit()
+        }
     }
-
-
-
-
 }
 

@@ -1,7 +1,7 @@
-#Tue Aug 25 23:33:35 IST 2020
-base.0=C\:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Wed Sep 02 22:06:40 IST 2020
+base.0=C\:\\Users\\KIIT\\AndroidStudioProjects\\PotterHead\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\dell\\Desktop\\poterhead\\PotterHead\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.1=C\:\\Users\\KIIT\\AndroidStudioProjects\\PotterHead\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
