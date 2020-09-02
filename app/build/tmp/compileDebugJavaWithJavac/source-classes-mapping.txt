@@ -1,0 +1,2 @@
+com/jerry/poterology/BuildConfig.java
+ com.jerry.poterology.BuildConfig
