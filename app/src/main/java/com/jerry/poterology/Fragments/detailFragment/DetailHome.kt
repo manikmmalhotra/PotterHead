@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.jerry.poterology.Adapter.Adapter.Detail.AdapterDetailCharacter
@@ -14,6 +16,7 @@ import com.jerry.poterology.R
 class DetailHome : Fragment() {
     lateinit var adapterSpell:AdapterDetailSpell
     lateinit var adapterhouseChar:AdapterDetailCharacter
+    lateinit var buttonChar: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -24,16 +27,33 @@ class DetailHome : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_detail_home, container, false)
+        val view:View = inflater.inflate(R.layout.fragment_detail_home, container, false)
+        buttonChar = view!!.findViewById(R.id.butonChar)
+
+        buttonChar.setOnClickListener {
+            val transaction = fragmentManager?.beginTransaction()
+            transaction!!.replace(R.id.frame, CharacterFragment()).addToBackStack("DetailHome")
+            transaction.commit()
+        }
+        return view
+
 
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val recyclerspell: RecyclerView = view.findViewById(R.id.recyclerspell)
-        val recyclerchar: RecyclerView = view.findViewById(R.id.recylerchar)
-        val recyclerhouse: RecyclerView = view.findViewById(R.id.recyclerhouse)
+        init()
+
+
+
+    }
+    private fun init(){
+
+        val recyclerspell: RecyclerView = view!!.findViewById(R.id.recyclerspell)
+        val recyclerchar: RecyclerView = view!!.findViewById(R.id.recylerchar)
+        val recyclerhouse: RecyclerView = view!!.findViewById(R.id.recyclerhouse)
+
         val linearLayoutManager = LinearLayoutManager(context,LinearLayoutManager.VERTICAL,false)
         val linearLayoutManager1 = LinearLayoutManager(context,LinearLayoutManager.VERTICAL,false)
         val linearLayoutManager2 = LinearLayoutManager(context,LinearLayoutManager.VERTICAL,false)
@@ -45,10 +65,10 @@ class DetailHome : Fragment() {
         recyclerspell.adapter = adapterSpell
         recyclerchar.adapter = adapterhouseChar
         recyclerhouse.adapter = adapterhouseChar
-
     }
-
-
+   /* var fragment:FragmentManager
+    constructor(supporFragmentManager: FragmentManager){
+        this.fragment = supporFragmentManager*/
 
 
 }

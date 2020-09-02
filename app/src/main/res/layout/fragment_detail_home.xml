@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/frame"
     android:layout_height="match_parent"
     android:background="@drawable/detailbg"
     tools:context=".Fragments.detailFragment.DetailHome">
@@ -27,6 +28,7 @@
                 android:layout_height="300dp"/>
 
             <Button
+                android:id="@+id/butonChar"
                 android:layout_width="200dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center_horizontal"
@@ -90,4 +92,4 @@
     </ScrollView>
 
 
-</RelativeLayout>
+</FrameLayout>
