@@ -28,6 +28,10 @@
             </intent-filter>
         </activity>
         <activity android:name="com.jerry.poterology.activity.HomeScreen" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

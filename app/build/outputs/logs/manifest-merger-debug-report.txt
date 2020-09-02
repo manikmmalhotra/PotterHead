@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [com.github.simformsolutions:SSCustomBottomNavigation:1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\ac268c04b4818634e750acc7fa93c913\jetified-SSCustomBottomNavigation-1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.core:core-ktx:1.3.1] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\feb0634a229ad0762d9f5af808149450\jetified-core-ktx-1.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.2.0-alpha06] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\219edb94a7370f43ecff81befb8fcf6b\material-1.2.0-alpha06\AndroidManifest.xml:17:1-24:12
@@ -44,25 +44,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dell\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\8660c98d57479bbcc1393a312e467cea\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\340bc999131ed4bc5fc464b235a14d8e\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\68da675acaa34a685c00edfd420923aa\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [com.google.android.material:material:1.2.0-alpha06] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\219edb94a7370f43ecff81befb8fcf6b\material-1.2.0-alpha06\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.0-alpha06] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\219edb94a7370f43ecff81befb8fcf6b\material-1.2.0-alpha06\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\88277c978be2156105095f5024a67c89\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -107,6 +107,12 @@ activity#com.jerry.poterology.activity.HomeScreen
 ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:20:9-57
 	android:name
 		ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:20:19-54
+meta-data#preloaded_fonts
+ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:22:9-24:57
+	android:resource
+		ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:24:13-54
+	android:name
+		ADDED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:23:13-43
 uses-sdk
 INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml

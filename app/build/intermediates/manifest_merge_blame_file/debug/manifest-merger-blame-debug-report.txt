@@ -11,7 +11,7 @@
 9-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:5:5-21:19
+11-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:5:5-25:19
 12        android:allowBackup="true"
 12-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -49,6 +49,13 @@
 30        <activity android:name="com.jerry.poterology.activity.HomeScreen" />
 30-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:20:9-57
 30-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:20:19-54
-31    </application>
-32
-33</manifest>
+31
+32        <meta-data
+32-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:22:9-24:57
+33            android:name="preloaded_fonts"
+33-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:23:13-43
+34            android:resource="@array/preloaded_fonts" />
+34-->C:\Users\dell\Desktop\poterhead\PotterHead\app\src\main\AndroidManifest.xml:24:13-54
+35    </application>
+36
+37</manifest>
