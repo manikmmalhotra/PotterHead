@@ -10,11 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="630add09-142a-47ae-895a-3cf3553f0c1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jerry/poterology/Adapter/Adapter/Detail/AdapterDetailSpell.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jerry/poterology/Adapter/Adapter/Detail/AdapterDetailSpell.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jerry/poterology/Fragments/detailFragment/DetailHome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jerry/poterology/Fragments/detailFragment/DetailHome.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_detail_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_detail_home.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599061998170</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="spell screen added">
+      <created>1599067222292</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599067222292</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -265,7 +268,8 @@
     <MESSAGE value="minor" />
     <MESSAGE value="detail home screen" />
     <MESSAGE value="character screen added" />
-    <option name="LAST_COMMIT_MESSAGE" value="character screen added" />
+    <MESSAGE value="spell screen added" />
+    <option name="LAST_COMMIT_MESSAGE" value="spell screen added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="64" y="19" key="#PSD" timestamp="1596729725897">
@@ -280,10 +284,10 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1906" y="275" key="AndroidCreateResourceFileDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1598896023944" />
-    <state x="1670" y="114" key="CommitChangelistDialog2" timestamp="1599061943497">
+    <state x="1670" y="114" key="CommitChangelistDialog2" timestamp="1599115521616">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1670" y="114" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599061943497" />
+    <state x="1670" y="114" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599115521616" />
     <state x="2006" y="275" key="Downloadable.Font.Dialog.Size" timestamp="1598881894006">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
@@ -313,10 +317,10 @@
       <screen x="0" y="0" width="1093" height="576" />
     </state>
     <state x="56" y="0" key="SettingsEditor/0.0.1093.576@0.0.1093.576" timestamp="1596733217150" />
-    <state x="1918" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599062031440">
+    <state x="1918" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599067225845">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1918" y="253" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599062031440" />
+    <state x="1918" y="253" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599067225845" />
     <state x="2142" y="298" key="chooseDestDirectoryDialog" timestamp="1598895964428">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
